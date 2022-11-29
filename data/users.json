@@ -1,0 +1,342 @@
+[
+  {
+    "_id": {
+      "$oid": "62487c57eb6be9ed558ea0bb"
+    },
+    "username": "rafita",
+    "correo": "castaneda.rodriguez.rafael.gil@gmail.com",
+    "password": "$2a$10$Pr9AEQnQv5k7TdzO/F6JleX7ecnsm7jAimTysFXvdWBOAy2Ld9VrC",
+    "edad": 19,
+    "code": "8e279752-9d36-48df-95e9-bb92b4840908",
+    "status": "UNVERIFIED",
+    "state": true,
+    "imagen": "https://cdn.icon-icons.com/icons2/827/PNG/512/user_icon-icons.com_66546.png",
+    "rol": "Administrador",
+    "fichas_guardadas": [],
+    "reportes": [],
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "62487ce1eb6be9ed558ea0be"
+    },
+    "username": "checi",
+    "correo": "arce.roldan.sergio@gmail.com",
+    "password": "$2a$10$yF6TfxDrG18wOOltiB7MB.5KoLkeEEsdfvPS3iBI6.e.y7a9y89ny",
+    "edad": 19,
+    "code": "8891f09a-208d-4fa0-9186-0cf4deb9613c",
+    "status": "UNVERIFIED",
+    "state": true,
+    "imagen": "https://cdn.icon-icons.com/icons2/827/PNG/512/user_icon-icons.com_66546.png",
+    "rol": "Administrador",
+    "fichas_guardadas": [],
+    "reportes": [],
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "62488c2a3214f98388d06037"
+    },
+    "username": "iflores",
+    "correo": "ifloresz1900@alumno.ipn.mx",
+    "password": "$2a$10$buyzizsu1pgQJ1y44ejhMOXFea.TkUhuxiUdDAM/oetS7K/xb9/oK",
+    "edad": 19,
+    "code": "4c8036a2-365e-4577-ba55-f5f36ae6867f",
+    "status": "UNVERIFIED",
+    "state": true,
+    "imagen": "https://cdn.icon-icons.com/icons2/827/PNG/512/user_icon-icons.com_66546.png",
+    "rol": "Administrador",
+    "fichas_guardadas": [],
+    "reportes": [],
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6248ad8a25cc7209d6b8426e"
+    },
+    "username": "MotherFoker",
+    "correo": "ceron.villanueva.donovan@gmail.com",
+    "password": "$2a$10$Q755TO8GblGir1yyKEd5J.Oq3AH5SPd.3iYmHX6h7S2WXlggz45fq",
+    "edad": 19,
+    "code": "b9873d7b-8b2c-425c-b178-5a3aebd851d1",
+    "status": "UNVERIFIED",
+    "state": true,
+    "imagen": "https://cdn.icon-icons.com/icons2/827/PNG/512/user_icon-icons.com_66546.png",
+    "rol": "Administrador",
+    "fichas_guardadas": [
+      {
+        "$oid": "62820599791e1ba1ab93e8fe"
+      },
+      {
+        "$oid": "6281fad15f96ab09f44c5fbf"
+      }
+    ],
+    "reportes": [],
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6248af4285ea7a6d5121586e"
+    },
+    "username": "Valeria666",
+    "correo": "islasvaleria37@gmail.com",
+    "password": "$2a$10$myZR2.h8Im1rLykgMooaZup3OCUY4G5xcLIJwXzevZ0gqDVqipiVq",
+    "edad": 17,
+    "code": "fac53d29-9924-48f7-a600-cb9e9a6a7e30",
+    "status": "UNVERIFIED",
+    "state": true,
+    "imagen": "https://cdn.icon-icons.com/icons2/827/PNG/512/user_icon-icons.com_66546.png",
+    "rol": "Usuario",
+    "fichas_guardadas": [],
+    "reportes": [],
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6248bbf9737d417cebc62613"
+    },
+    "username": "ifloresZ2",
+    "correo": "flores.zamora.ithan@gmail.com",
+    "password": "$2a$10$ykGnW7mkYsdDrsCeM87tQewDRXRFRKVAu2dk9clKYOTD04Jyn7TjG",
+    "edad": 18,
+    "code": "405e4a96-11a3-44e5-8b26-e3f95d0542fd",
+    "status": "VERIFIED",
+    "state": true,
+    "imagen": "https://cdn.icon-icons.com/icons2/827/PNG/512/user_icon-icons.com_66546.png",
+    "rol": "Administrador",
+    "fichas_guardadas": [
+      {
+        "$oid": "6281da5f90138b6546cd6207"
+      }
+    ],
+    "reportes": [],
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "624a47e2bd8e80136c34f645"
+    },
+    "username": "prueba",
+    "correo": "prueba@gmail.com",
+    "password": "$2a$10$tYBp3VowjPbn3T.j1VyGHeZoJ3UTrF7ID4E8Kb.eI1pYdzicAnNPS",
+    "estadoMx": "Prefiero no decirlo",
+    "sexo": "Masculino",
+    "edad": 32,
+    "code": "110e76cb-188c-4505-ae54-37f2e0bc83a0",
+    "status": "UNVERIFIED",
+    "state": true,
+    "imagen": "https://cdn.icon-icons.com/icons2/827/PNG/512/user_icon-icons.com_66546.png",
+    "rol": "Usuario",
+    "fichas_guardadas": [],
+    "reportes": [],
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "624bca3a6f36e76dbdcc78bf"
+    },
+    "username": "JoséNápoles",
+    "correo": "joseesunapersona@gmail.com",
+    "password": "$2a$10$rCPTecU9LyGeg6YwYZTcWuBmC/0bakM8Sj7JY2P8bmA2Z2qE4fRiK",
+    "estadoMx": "Prefiero no decirlo",
+    "sexo": "Masculino",
+    "edad": 18,
+    "code": "d2ab065d-cc71-4696-91cd-ecc711537e70",
+    "status": "VERIFIED",
+    "state": true,
+    "imagen": "https://cdn.icon-icons.com/icons2/827/PNG/512/user_icon-icons.com_66546.png",
+    "rol": "Usuario",
+    "fichas_guardadas": [],
+    "reportes": [],
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "624c45ef4ec918c08b8fbecf"
+    },
+    "username": "addRian0-0",
+    "correo": "addrianun@gmail.com",
+    "password": "$2a$10$EFmD.jQW8kKonPX.2hhJcOy292bg5U5ghDq/O2WoM3G5Pevx12fWy",
+    "estadoMx": "Prefiero no decirlo",
+    "sexo": "Masculino",
+    "edad": 19,
+    "code": "bc1c51f0-a4d2-4eac-b172-d52c3b731ba3",
+    "status": "VERIFIED",
+    "state": true,
+    "imagen": "https://cdn.icon-icons.com/icons2/827/PNG/512/user_icon-icons.com_66546.png",
+    "rol": "Administrador",
+    "fichas_guardadas": [
+      {
+        "$oid": "6281da5f90138b6546cd6207"
+      },
+      {
+        "$oid": "6281040990c3cd7d7beacd7b"
+      }
+    ],
+    "reportes": [],
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "624c989878314098544fe005"
+    },
+    "username": "Combos",
+    "correo": "rafa.cast0126@gmail.com",
+    "password": "$2a$10$TGchvphim5wtRppfUBgqz.N6jlIUrPtpQwR2bmuVEN/PqyqRfqsI6",
+    "estadoMx": "Prefiero no decirlo",
+    "sexo": "Masculino",
+    "edad": 18,
+    "code": "0bf8af05-df1b-416e-9261-8b8789c97f3e",
+    "status": "VERIFIED",
+    "state": true,
+    "imagen": "https://cdn.icon-icons.com/icons2/827/PNG/512/user_icon-icons.com_66546.png",
+    "rol": "Administrador",
+    "fichas_guardadas": [
+      {
+        "$oid": "624e562ac66ef4d876b7b9cf"
+      }
+    ],
+    "reportes": [],
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6250982b71fd3e42b792d4dc"
+    },
+    "username": "DonyxAlcoholico",
+    "correo": "donoceron@gmail.com",
+    "password": "$2a$10$SzWRLU6C15iOs1/FALSXU.1GfJR9XuyHZaMdGQnsPNfafZ3EW4GAa",
+    "estadoMx": "Prefiero no decirlo",
+    "sexo": "Masculino",
+    "edad": 19,
+    "code": "30b44615-dc69-4eb9-9731-379c3df47bff",
+    "status": "VERIFIED",
+    "state": true,
+    "imagen": "https://cdn.icon-icons.com/icons2/827/PNG/512/user_icon-icons.com_66546.png",
+    "rol": "Administrador",
+    "fichas_guardadas": [],
+    "reportes": [],
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6250c0dab0b350fcc9586aa8"
+    },
+    "username": "José Nápoles",
+    "correo": "thinkreations.o@gmail.com",
+    "password": "$2a$10$Znb6p/t.p48CdeEm.ZMjSOi26pmL4QViGqMJJR7GCuBideimQ2E0m",
+    "estadoMx": "Prefiero no decirlo",
+    "sexo": "Masculino",
+    "edad": 18,
+    "code": "d2cc7dcd-8f77-4d0b-beff-f3183a021b3b",
+    "status": "VERIFIED",
+    "state": true,
+    "imagen": "https://cdn.icon-icons.com/icons2/827/PNG/512/user_icon-icons.com_66546.png",
+    "rol": "Administrador",
+    "fichas_guardadas": [],
+    "reportes": [],
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6250da459a8a300ea6e9a7f0"
+    },
+    "username": "Nápoles",
+    "correo": "napoles.munguia.josedejesus.1@gmail.com",
+    "password": "$2a$10$k7Hn4YR31cblLQnmCeXl8OJQuz8a9YMBRKA6YQ/rpM1vEqIiQbJuu",
+    "estadoMx": "Prefiero no decirlo",
+    "sexo": "Masculino",
+    "edad": 18,
+    "code": "c51ee257-be3c-433f-b0db-a72a76083058",
+    "status": "VERIFIED",
+    "state": true,
+    "imagen": "https://cdn.icon-icons.com/icons2/827/PNG/512/user_icon-icons.com_66546.png",
+    "rol": "Administrador",
+    "fichas_guardadas": [],
+    "reportes": [],
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6258a5442cb6ba2fdd641579"
+    },
+    "username": "Goku1234",
+    "correo": "scienceiwork@outlook.com",
+    "password": "$2a$10$QKDI0gWaXNvO9MjeaXV4Pup0uxS8Oth8S91c4LkzKNOFe/FxzmdSK",
+    "estadoMx": "Prefiero no decirlo",
+    "sexo": "Masculino",
+    "edad": 19,
+    "code": "51fd39bf-9242-4c1a-8257-8cfd3fcc644a",
+    "status": "UNVERIFIED",
+    "state": true,
+    "imagen": "https://cdn.icon-icons.com/icons2/827/PNG/512/user_icon-icons.com_66546.png",
+    "rol": "Administrador",
+    "fichas_guardadas": [],
+    "reportes": [],
+    "__v": 0,
+    "fotoPerfil": "https://res.cloudinary.com/tucan-s-software-plantmatica/image/upload/v1650072488/ikym5u8hhxce0w31a286.gif"
+  },
+  {
+    "_id": {
+      "$oid": "626f7c112a88520c887e6cb0"
+    },
+    "username": "isaac",
+    "fotoPerfil": "https://res.cloudinary.com/tucan-s-software-plantmatica/image/upload/v1650080733/EEsFteFVUAAWhbW_e9vak0.png",
+    "correo": "issacfloresd@gmail.com",
+    "password": "$2a$10$BeZ.1WRCWTukc0Gi/Epx1uzGz7JZtoU8nSaMnP/kHuJn4pgFxlqAq",
+    "estadoMx": "Prefiero no decirlo",
+    "sexo": "Masculino",
+    "edad": 19,
+    "code": "c17cd4cb-a32d-4d01-9abb-47718409c26c",
+    "status": "UNVERIFIED",
+    "state": true,
+    "imagen": "https://cdn.icon-icons.com/icons2/827/PNG/512/user_icon-icons.com_66546.png",
+    "rol": "Usuario",
+    "fichas_guardadas": [],
+    "reportes": [],
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6271bedaf7f97b662e3069b7"
+    },
+    "username": "Fetu_bb",
+    "fotoPerfil": "https://res.cloudinary.com/tucan-s-software-plantmatica/image/upload/v1650080733/EEsFteFVUAAWhbW_e9vak0.png",
+    "correo": "gutierrez.villalobos.josealfredo@gmail.com",
+    "password": "$2a$10$6OosDdDDQnYHFvSDsGicTeQO34tP4c55Z6NfiAhYhqQvhxlcCzC1i",
+    "estadoMx": "Prefiero no decirlo",
+    "sexo": "Masculino",
+    "edad": 18,
+    "code": "bb2d65e9-3070-4a49-ad31-30ec956c3f93",
+    "status": "UNVERIFIED",
+    "state": true,
+    "imagen": "https://cdn.icon-icons.com/icons2/827/PNG/512/user_icon-icons.com_66546.png",
+    "rol": "Usuario",
+    "fichas_guardadas": [
+      {
+        "$oid": "6270ff6a1fec6edb1f960c73"
+      }
+    ],
+    "reportes": [],
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "627fdd23b59f952047c21812"
+    },
+    "username": "floflo",
+    "correo": "ola@gmail.com",
+    "password": "$2a$10$co0Y7YHyh2Y4rpzIUyJac.oiR/3xP4o7YRNy30woPFmnwccoxD0mm",
+    "estadoMx": "Prefiero no decirlo",
+    "sexo": "Masculino",
+    "edad": 18,
+    "code": "d4b40bce-3ced-40e6-a562-a821d75b0343",
+    "status": "UNVERIFIED",
+    "state": true,
+    "imagen": "https://cdn.icon-icons.com/icons2/827/PNG/512/user_icon-icons.com_66546.png",
+    "rol": "Usuario",
+    "fichas_guardadas": [],
+    "reportes": [],
+    "__v": 0
+  }
+]

@@ -1,0 +1,357 @@
+[
+  {
+    "imagen": "Pendiente-Ficha",
+    "etiquetas": [
+      "Heridas ",
+      "Resfriados",
+      "Indigestion",
+      "Bugambilia",
+      "Bougainvillea"
+    ],
+    "nombre_comun": "Bugambilia",
+    "nombre_cientifico": "Bougainvillea",
+    "origen_distribucion": [
+      {
+        "nombre": "Brasil",
+        "detalles": "Se encuentra en gran variedad de paises",
+        "_id": {
+          "$oid": "6271bf838b8785d3dd02d2fa"
+        }
+      }
+    ],
+    "descripcion": "Conocida como bugambilia, buganvilla o camelina, esta planta trepadora es una de las más bellas y coloridas, gracias al color fucsia, lila o morado de sus finas flores.",
+    "caracteristicas_especiales": [],
+    "complemento": "Analgésicos",
+    "consumo": [],
+    "usos_medicinales": [
+      "Enfermedades respiratorias",
+      "Malestares estomacales"
+    ],
+    "fuentes": [],
+    "polemica": false,
+    "datos_creacion": {
+      "fecha": {
+        "dia": {
+          "$date": "1970-01-01T00:00:00.004Z"
+        },
+        "mes": {
+          "$date": "1970-01-01T00:00:00.003Z"
+        },
+        "year": {
+          "$date": "1970-01-01T00:00:02.022Z"
+        }
+      },
+      "usuario_creo": {
+        "$oid": "6248ad8a25cc7209d6b8426e"
+      }
+    },
+    "estado_ficha": {
+      "state": true,
+      "admin_acepto": {
+        "$oid": "624c45ef4ec918c08b8fbecf"
+      }
+    },
+    "comentarios": [],
+    "__v": 0
+  },
+
+  {
+    "imagen": "Pendiente-Ficha",
+    "etiquetas": [
+      "Heridas ",
+      "Malestares estomacales",
+      "Antioxidante",
+      "Tomillo",
+      "Thymus"
+    ],
+    "nombre_comun": "Tomillo",
+    "nombre_cientifico": "Thymus",
+    "origen_distribucion": [
+      {
+        "nombre": "Mediterráneo",
+        "detalles": "crece sobre suelos secos y soleados y resiste bien las heladas y sequías.",
+        "_id": {
+          "$oid": "6259b735a85d8cbdfc1a8d1c"
+        }
+      }
+    ],
+    "descripcion": "Ya sea como condimento o infusión, esta hierba ayuda a mejorar el sistema digestivo, además de poseer propiedades antioxidantes y antibacterianas. ",
+    "caracteristicas_especiales": ["Planta aromatica"],
+    "complemento": "antiespasómodicos: \nButilescopolamina.\nClorhidrato de papaverina.\nPirenzepina.\nTrimebutina.",
+    "consumo": [
+      "Puedes preparar el té colocando en una olla o cacerola 1 cucharada sopera de tomillo fresco o seco y 1 taza de agua. Se deja hervir de 1 a 3 minutos."
+    ],
+    "usos_medicinales": [
+      "Malestares estomacales",
+      "Anibiotico",
+      "Desinfeccion de heridas"
+    ],
+    "fuentes": [
+      "https://www.admagazine.com/articulos/tomillo-todo-lo-que-debes-saber-sobre-esta-planta-aromatica",
+      "https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwit3M_H05b3AhWBKUQIHQGKAkYQFnoECBkQAw&url=https%3A%2F%2Fnutricionyfarmacia.es%2Fblog%2Fsalud%2Ffitoterapia%2Ftomillo-propiedades-beneficios%2F&usg=AOvVaw3Q2v4KHjab4G5hv0qwwlB1"
+    ],
+    "polemica": false,
+    "datos_creacion": {
+      "fecha": {
+        "dia": {
+          "$date": "1970-01-01T00:00:00.004Z"
+        },
+        "mes": {
+          "$date": "1970-01-01T00:00:00.003Z"
+        },
+        "year": {
+          "$date": "1970-01-01T00:00:02.022Z"
+        }
+      },
+      "usuario_creo": {
+        "$oid": "6248ad8a25cc7209d6b8426e"
+      }
+    },
+    "estado_ficha": {
+      "state": true,
+      "admin_acepto": {
+        "$oid": "624c45ef4ec918c08b8fbecf"
+      }
+    },
+    "comentarios": [],
+    "__v": 0
+  },
+
+  {
+    "imagen": "Pendiente-Ficha",
+    "etiquetas": [
+      "aromatica",
+      "Malestares estomacales",
+      "hierbabuena",
+      "Mentha spicata"
+    ],
+    "nombre_comun": "Hierbabuena",
+    "nombre_cientifico": "Mentha spicata",
+    "origen_distribucion": [
+      {
+        "nombre": "Europa, Àfrica y Asia",
+        "detalles": "Se puede conseguir en cualquier florería",
+        "_id": {
+          "$oid": "6275b858d00c8f28383abd29"
+        }
+      }
+    ],
+    "descripcion": "Entre las diferentes propiedades de la hierbabuena se encuentran las medicinales, aromáticas y culinarias, entre otras:Previene diabetes, es antioxidante, quita dolores y espamos. Es antibacterial, favorece la digestión, ayuda a la relajación, es vigorizante, ahuyenta insectos y aromatiza el hogar.",
+    "caracteristicas_especiales": ["aromatica", "culinaria"],
+    "complemento": ".",
+    "consumo": [],
+    "usos_medicinales": [
+      "Enfermedades respiratorias",
+      "Malestares estomacales"
+    ],
+    "fuentes": [
+      "https://www.admagazine.com/articulos/hierbabuena-todo-lo-que-debes-saber"
+    ],
+    "polemica": false,
+    "datos_creacion": {
+      "fecha": {
+        "dia": {
+          "$date": "1970-01-01T00:00:00.005Z"
+        },
+        "mes": {
+          "$date": "1970-01-01T00:00:00.003Z"
+        },
+        "year": {
+          "$date": "1970-01-01T00:00:02.022Z"
+        }
+      },
+      "usuario_creo": {
+        "$oid": "6248ad8a25cc7209d6b8426e"
+      }
+    },
+    "estado_ficha": {
+      "state": true,
+      "admin_acepto": {
+        "$oid": "624c45ef4ec918c08b8fbecf"
+      }
+    },
+    "comentarios": [],
+    "__v": 0
+  },
+
+  {
+    "imagen": "Pendiente-Ficha",
+    "etiquetas": [
+      "Laxante",
+      "Malaria",
+      "Ayurvédico",
+      "Malestares estomacales",
+      "Tamarindo",
+      "Tamarindus indica"
+    ],
+    "nombre_comun": "Tamarindo",
+    "nombre_cientifico": "Tamarindus indica",
+    "origen_distribucion": [
+      {
+        "nombre": "África Tropical",
+        "detalles": "Se encuentra en una gran variedad de países",
+        "_id": {
+          "$oid": "6270ff6a1fec6edb1f960c74"
+        }
+      }
+    ],
+    "descripcion": "Vienen de árboles verdes de hasta 30 m de altura, pero de crecimiento lento. Las flores se organizan en racimos, con pétalos amarillos con rayas naranjas o rojas.\nEl fruto es una legumbre con un bello color marrón oscuro brillante, con cotiledones gruesos y carnosos.",
+    "caracteristicas_especiales": [],
+    "complemento": "Medicamentos ayurvédicos.",
+    "consumo": [],
+    "usos_medicinales": ["Malestares estomacales", "Fiebre"],
+    "fuentes": [
+      "O. Eyog Matig, O. Ndoye, J. Kengue et A. Awono (dir.) « Tamarindus indica Linn. », en Les fruitiers forestiers comestibles du Cameroun, IPGRI, 2006, p. 70-72",
+      "Hooker, Joseph Dalton. (1879). The Flora of British India, Vol II. London: L. Reeve & Co."
+    ],
+    "polemica": false,
+    "datos_creacion": {
+      "fecha": {
+        "dia": {
+          "$date": "1970-01-01T00:00:00.002Z"
+        },
+        "mes": {
+          "$date": "1970-01-01T00:00:00.004Z"
+        },
+        "year": {
+          "$date": "1970-01-01T00:00:02.022Z"
+        }
+      },
+      "usuario_creo": {
+        "$oid": "6250da459a8a300ea6e9a7f0"
+      }
+    },
+    "estado_ficha": {
+      "state": true,
+      "admin_acepto": {
+        "$oid": "6250c0dab0b350fcc9586aa8"
+      }
+    },
+    "comentarios": [],
+    "__v": 0
+  },
+  {
+    "imagen": "Pendiente-Ficha",
+    "etiquetas": ["aromatica", "infusión", "Menta ", "Mentha"],
+    "nombre_comun": "Menta ",
+    "nombre_cientifico": "Mentha",
+    "origen_distribucion": [
+      {
+        "nombre": "Europa Central y del Sur",
+        "detalles": "Origen ",
+        "_id": {
+          "$oid": "6275b60cf4625adbac75280f"
+        }
+      }
+    ],
+    "descripcion": "Las propiedades de la menta no se limitan a su aroma fresco. En realidad, se le atribuyen propiedades descongestionantes, estimulantes y antisépticas. Por lo tanto, es ampliamente usado en la medicina natural. Sus deliciosas hojas contienen nutrientes, de tal forma que algunos la utilizan como aderezo para sus obras culinarias. En este artículo, te explicaremos las propiedades y beneficios de la menta.",
+    "caracteristicas_especiales": ["Planta aromatica", "Comestible"],
+    "complemento": "Las hojas de la menta se han utilizado para una gran diversidad de productos. Sin embargo, puede consumirse de forma natural en forma de té o aderezo en las comidas. Sus propiedades le aportan grandes beneficios a la salud.\nLas infusiones de esta planta se han utilizado desde tiempos remotos para aliviar la hinchazón abdominal y los cólicos. Por tanto, alivia los gases y permite digerir las comidas pesadas. Un aspecto destacado es que de acuerdo a algunos estudios al proporcionar una mejor digestión combate el estreñimiento. Sus propiedades expectorantes, descongestionantes y antisépticas permite que sea útil en caso de resfriado común así como en pacientes que padecen bronquitis o asma, pues facilita la expulsión de la mucosidad. Puede usarse de forma tópica en la piel, lo que puede aliviar dolores musculares como la espalda, aliviar las picaduras de insectos, tratar hongos en las uñas o incluso la piel, entre otras utilidades. Sus componentes favorecen la buena salud del corazón, al mismo tiempo contiene efectos anticoagulantes que mejoran la oxigenación de la sangre.",
+    "consumo": [],
+    "usos_medicinales": [
+      "Antiinflamatorio",
+      "Expectorante",
+      "Analgesico",
+      "Antibacteriano "
+    ],
+    "fuentes": [
+      "https://nutricionyfarmacia.es/blog/salud/bienestar/menta-propiedades-beneficios/",
+      "http://www.conabio.gob.mx/malezasdemexico/lamiaceae/mentha-rotundifolia/fichas/ficha.htm"
+    ],
+    "polemica": false,
+    "datos_creacion": {
+      "fecha": {
+        "dia": {
+          "$date": "1970-01-01T00:00:00.005Z"
+        },
+        "mes": {
+          "$date": "1970-01-01T00:00:00.004Z"
+        },
+        "year": {
+          "$date": "1970-01-01T00:00:02.022Z"
+        }
+      },
+      "usuario_creo": {
+        "$oid": "624c989878314098544fe005"
+      }
+    },
+    "estado_ficha": {
+      "state": true,
+      "admin_acepto": {
+        "$oid": "6248ad8a25cc7209d6b8426e"
+      }
+    },
+    "comentarios": [],
+    "__v": 0
+  },
+
+  {
+    "imagen": "Pendiente-Ficha",
+    "etiquetas": [
+      "Resfriados",
+      "Indigestion",
+      "Antioxidante",
+      "Malestares estomacales",
+      "Laxante",
+      "Diuretico",
+      "Desparasitante",
+      "Jamaica ",
+      "Hibiscus sabdariffa"
+    ],
+    "nombre_comun": "Jamaica ",
+    "nombre_cientifico": "Hibiscus sabdariffa",
+    "origen_distribucion": [
+      {
+        "nombre": "África Tropical ",
+        "detalles": "Distribuida en todo el mundo. Principales productores; China, Tailandia y México ",
+        "_id": {
+          "$oid": "6275b91cf28f237fb7c5bc39"
+        }
+      }
+    ],
+    "descripcion": "La flor de Jamaica es herbácea o arbustiva, perenne, anual y mide de 1 a 3 metros de altura. Precisa de exposición directa al sol, y por muchas horas al día. Es semileñosa, de sistema radicular esparcido y poco profundo.\n\nLas hojas miden unos 15 cm de largo y están dispuestas en forma alternada en el tallo. Pueden ser tri o pentalobuladas. La flor es suculenta, axilar, de corola blanca, amarilla o rosada, y de base roja. Es acampanada, autofecundante y se compone de cinco pétalos. Mide de 8 a 10 cm de diámetro.\n\nDestaca de esta planta el cáliz, poseedor de un espléndido y fuerte tono rojo vino, que mide de 5 a 8 cm. Posee cuatro o cinco sépalos que se unen en sus bases y se topan en sus extremos, adquiriendo una forma cónica. Además, tiene un epicáliz análogo pero de sépalos separados y más pequeños.\n\nSu fruto es una cápsula, partida en cinco sectores, cada uno con tres o cuatro semillas de tonalidad marrón. Está protegido por el cáliz.",
+    "caracteristicas_especiales": [
+      "Planta aromatica",
+      "Condimento",
+      "Comestible",
+      "Endulzante"
+    ],
+    "complemento": "Complementaria a todo tratamiento ",
+    "consumo": [],
+    "usos_medicinales": [
+      "Enfermedades respiratorias",
+      "Malestares estomacales",
+      "Analgesico"
+    ],
+    "fuentes": [
+      "https://www.cosmotienda.com/tienda/flor-jamaica-sudan-500-p-3403.html#:~:text=DESCRIPCION%3A%20Son%20las%20flores%20secas,se%20le%20emplea%20como%20diur%C3%A9tico.",
+      "https://www.jardineriaon.com/planta-de-jamaica.html",
+      "http://www.scielo.org.mx/scielo.php?script=sci_arttext&pid=S1027-152X2008000200004"
+    ],
+    "polemica": false,
+    "datos_creacion": {
+      "fecha": {
+        "dia": {
+          "$date": "1970-01-01T00:00:00.006Z"
+        },
+        "mes": {
+          "$date": "1970-01-01T00:00:00.004Z"
+        },
+        "year": {
+          "$date": "1970-01-01T00:00:02.022Z"
+        }
+      },
+      "usuario_creo": {
+        "$oid": "6250da459a8a300ea6e9a7f0"
+      }
+    },
+    "estado_ficha": {
+      "state": true,
+      "admin_acepto": {
+        "$oid": "624c45ef4ec918c08b8fbecf"
+      }
+    },
+    "comentarios": [],
+    "__v": 0
+  }
+]
