@@ -33,6 +33,7 @@ app.use('/login', require('./routes/login'));
 app.use('/cliente', require('./routes/cliente'));
 app.use('/search', require('./routes/search'));
 
+
 app.listen(process.env.PORT || 8080, () => {
     console.log(`Server in port: ${process.env.PORT}`);
 });
