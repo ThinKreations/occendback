@@ -1,10 +1,11 @@
 const { Router } = require('express');
 const { check } = require('express-validator');
-const { agregarCliente, eliminarCliente, getClienteId, guardarEtiquetasBD, traerClientes} = require('../controllers/cliente');
+const { agregarCliente, eliminarCliente, getClienteId, traerClientes} = require('../controllers/cliente');
 const { getEtiquetas, buscarCoincidencias, buscarClientesCoincidencias } = require('../controllers/search');
 const { existeUserID } = require('../helpers/validar-datos-user');
-const { validarJWT, validarDatos } = require('../middlewares/validar-jwt');
-const { existeFichaId } = require('../helpers/validarFicha')
+const { validarJWT } = require('../middlewares/validar-jwt');
+const { validarDatos } = require('../middlewares/validar')  
+const { existeClienteId } = require('../helpers/validarCliente')
 
 
 const router = Router();
@@ -24,15 +25,34 @@ router.post('/', [
     check('email', 'Debe tener correo').notEmpty,
     check('telefono'),
     check('movil'),
-    
+    check('id_user', 'Operación invalida.').isMongoId().custom(existeUserID),
+
     validarDatos
 ], agregarCliente);
 
 //Obtener un cliente por su id
 router.get('/:id', [
-    check('id', 'No es un ID valido').isMongoId().custom(existeFichaId),
+    check('id', 'No es un ID valido').isMongoId().custom(existeClienteId),
     validarDatos
-], getFichaId);
+], getClienteId);
+
+router.get('/', traerClientes);
+
+
+router.delete('/delete/cliente/:id', [
+    validarJWT,
+    check('id').isMongoId(),
+    validarDatos
+], eliminarCliente);
+
+router.get('/buscar/etiquetas', getEtiquetas)
+
+router.get('/coincidencias/:coincidencias', buscarClientesCoincidencias)
+
+router.put('/encontrar/coincidencia',[
+    check('termino', 'EL término de búsqueda no puede ir vacío').notEmpty(),
+    validarDatos
+], buscarCoincidencias)
 
 
 module.exports = router; 
