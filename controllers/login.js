@@ -12,14 +12,14 @@ const iniciarSesion = async (req, res) => {
         const usuario = await User.findOne({ correo });
         if (!usuario) {
             return res.status(400).json({
-                msg: 'Correo o password no son correctos'
+                msg: 'Datos incorrectos'
             })
         }
 
         const validClave = bcryptjs.compareSync(password, usuario.password);
         if (!validClave) {
             return res.status(400).json({
-                msg: 'Correo o password no son correctos'
+                msg: 'Datos incorrectos'
             })
         }
 

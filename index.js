@@ -1,4 +1,4 @@
-require('dotenv').config({ });
+require('dotenv').config();
 const express = require('express');
 const app = express();
 const cors = require('cors');
@@ -28,10 +28,11 @@ try {
     throw new Error('Error a la hora de conectar a la BD');
 }
 
-app.use('/user', require('./routes/user'));
-app.use('/login', require('./routes/login'));
-app.use('/cliente', require('./routes/cliente'));
-app.use('/search', require('./routes/search'));
+
+app.use('/user/', require('./routes/user'));
+app.use('/login/', require('./routes/login'));
+app.use('/cliente/', require('./routes/cliente'));
+app.use('/search/', require('./routes/search'));
 
 
 app.listen(process.env.PORT || 8080, () => {

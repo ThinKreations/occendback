@@ -5,7 +5,7 @@ const { getEtiquetas, buscarCoincidencias, buscarClientesCoincidencias } = requi
 const { existeUserID } = require('../helpers/validar-datos-user');
 const { validarJWT } = require('../middlewares/validar-jwt');
 const { validarDatos } = require('../middlewares/validar')  
-const { existeClienteId } = require('../helpers/validarCliente')
+const { existeClienteId } = require('../helpers/validar-cliente')
 
 
 const router = Router();

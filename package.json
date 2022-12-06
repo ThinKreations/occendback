@@ -1,5 +1,5 @@
 {
-  "name": "Plantmatica-backend",
+  "name": "occendback",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -9,15 +9,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/addRian0-0/5IV9-PlantMatica-Backend.git"
+    "url": "git+https://github.com/ThinKreations/occendback.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/addRian0-0/5IV9-PlantMatica-Backend/issues"
+    "url": "https://github.com/ThinKreations/occendback/issues"
   },
-  "homepage": "https://github.com/addRian0-0/5IV9-PlantMatica-Backend#readme",
+  "homepage": "https://github.com/ThinKreations/occendback#readme",
   "dependencies": {
     "bcryptjs": "^2.4.3",
     "cloudinary": "^1.27.1",

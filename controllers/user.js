@@ -1,6 +1,6 @@
 const bcryptjs = require('bcryptjs');
 const { v4: uuidv4 } = require('uuid');
-const { generarJWT, generarJWTPass } = require('../config/jwt');
+const { generarJWT } = require('../config/jwt');
 const User = require('../models/User');
 const jwt = require('jsonwebtoken');
 
@@ -9,14 +9,13 @@ const crearCuenta = async (req, res) => {
     try {
         const {correo, password} = req.body;
 
-        //generar codigo
+        //Generar Codigo
         const code = uuidv4();
+        
         const user = new User({correo, password, code });
-
-        /* Generar webToken */
+        
+        //Generar Token
         const token = await generarJWT(code);
-
-
 
         const salt = bcryptjs.genSaltSync();
         user.password = bcryptjs.hashSync(password, salt);
@@ -50,6 +49,6 @@ const getUsuario = async (req, res) => {
 
 module.exports = {
     crearCuenta,
-    getUsuario,
+    getUsuario
     
 }

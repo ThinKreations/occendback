@@ -14,8 +14,7 @@ router.post('/', [
     
     check('correo', 'Formato de correo no valido').isEmail().custom(existEmail),
     check('password', 'La contraseña debe ser minimo de 10 caracteres').isLength({ min: 10 }),
-    
-    validarDatos
+   
 ], crearCuenta);
 /*
 Confirmar la creacion de la cuenta 
