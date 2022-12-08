@@ -36,9 +36,11 @@ const iniciarSesion = async (req, res) => {
     } catch (error) {
 
         return res.status(500).json({
-            msg: 'Ocurrio un error'
+            
+            msg: 'Ocurrio un error',
+            
         });
-
+        console.log(error)
     }
 
 

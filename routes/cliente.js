@@ -10,10 +10,12 @@ const { existeClienteId } = require('../helpers/validar-cliente')
 
 const router = Router();
 
+
+
 router.post('/', [
+    
     validarJWT,
 
-    check('etiquetas'),
     check('nombres', 'No puede ir vacío').notEmpty(),
     check('paterno'),
     check('materno'),
@@ -36,7 +38,10 @@ router.get('/:id', [
     validarDatos
 ], getClienteId);
 
-router.get('/', traerClientes);
+router.get('/', traerClientes,
+
+
+);
 
 
 router.delete('/delete/cliente/:id', [

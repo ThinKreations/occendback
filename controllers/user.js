@@ -47,8 +47,22 @@ const getUsuario = async (req, res) => {
 
 }
 
+const deleteUsuario = async (req, res) => {
+
+    const { id } = req.params;
+    await User.findByIdAndDelete(id);
+
+    res.json({
+        msg: 'Se eliminó la cuenta con exito'
+    })
+
+}
+
+
 module.exports = {
     crearCuenta,
-    getUsuario
+    getUsuario,
+    deleteUsuario
     
 }
+

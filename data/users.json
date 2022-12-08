@@ -237,25 +237,7 @@
     "reportes": [],
     "__v": 0
   },
-  {
-    "_id": {
-      "$oid": "6250da459a8a300ea6e9a7f0"
-    },
-    "username": "Nápoles",
-    "correo": "napoles.munguia.josedejesus.1@gmail.com",
-    "password": "$2a$10$k7Hn4YR31cblLQnmCeXl8OJQuz8a9YMBRKA6YQ/rpM1vEqIiQbJuu",
-    "estadoMx": "Prefiero no decirlo",
-    "sexo": "Masculino",
-    "edad": 18,
-    "code": "c51ee257-be3c-433f-b0db-a72a76083058",
-    "status": "VERIFIED",
-    "state": true,
-    "imagen": "https://cdn.icon-icons.com/icons2/827/PNG/512/user_icon-icons.com_66546.png",
-    "rol": "Administrador",
-    "fichas_guardadas": [],
-    "reportes": [],
-    "__v": 0
-  },
+  
   {
     "_id": {
       "$oid": "6258a5442cb6ba2fdd641579"
@@ -339,4 +321,5 @@
     "reportes": [],
     "__v": 0
   }
+
 ]

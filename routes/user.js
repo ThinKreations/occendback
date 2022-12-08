@@ -2,7 +2,7 @@
 const { Router } = require('express');
 const { check } = require('express-validator');
 //Controladores
-const { crearCuenta, getUsuario} = require('../controllers/user');
+const { crearCuenta, getUsuario, deleteUsuario} = require('../controllers/user');
 const { existEmail, existeUserID } = require('../helpers/validar-datos-user');
 const { validarDatos } = require('../middlewares/validar');
 const { validarJWT } = require('../middlewares/validar-jwt');
@@ -31,15 +31,15 @@ router.get('/:id', [
 ], getUsuario);
 
 
-/*
+
 //Borrar cuenta usuario
 router.delete('/:id', [
-    validarJWT,
+    
     check('id', 'Ocurrio un error').isMongoId(),
     check('id', 'Ocurrio un error').custom(existeUserID),
-    validarDatos
+    
 ], deleteUsuario);
-
+/*
 //No actualiza edad
 router.put('/:id', [
     validarJWT,

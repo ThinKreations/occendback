@@ -15,23 +15,23 @@ const validarJWT = async (req, res, next) => {
         const { uid } = jwt.verify(token, process.env.SECRETORPUBLICKEY);
         req.uid = uid;
 
-        const usuario = await User.findOne({ code: uid });
+        const user = await User.findOne({ code: uid });
 
         //Usuario no existe ->>>
-        if (!usuario) {
+        if (!user) {
             return res.status(401).json({
-                msg: "Debe iniciar sesion para realizar esta operacion."
+                msg: "Debe iniciar sesion para acceder."
             });
         }
 
         //Verificar si el usuario esta activo
-        if (!usuario.state) {
+        if (!user.state) {
             return res.status(401).json({
                 msg: "Token no valido - Usuario no activo"
             });
         }
 
-        req.usuario = usuario;
+        req.user = user;
 
         next();
 

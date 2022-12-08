@@ -3,9 +3,6 @@ const mongoose = require('mongoose');
 
 const SchemaCliente = mongoose.Schema({
 
-    etiquetas:[{
-        type:String,
-    }],
     nombres:{
         type:String,
         required: false,
@@ -74,7 +71,13 @@ const SchemaCliente = mongoose.Schema({
             ref: 'User',
             required: true
         },
-    }
+    },   
+    estado_Cliente: {
+        state: {
+            type: Boolean,
+            default: false
+        }
+    },
 
 })
 

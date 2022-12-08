@@ -1,10 +1,11 @@
 const User = require('../models/User');
 const Etiqueta = require('../models/Etiquetas');
+const Cliente = require('../models/Cliente')
 
 const agregarCliente = async (req,res) =>{
 
     let{
-        etiquetas,
+        
         nombres,
         paterno,
         materno,
@@ -19,7 +20,7 @@ const agregarCliente = async (req,res) =>{
         usuario_creo
     } = req.body;
 
-    guardarEtiquetasBD(etiquetas,
+    guardarEtiquetasBD(
         nombres, 
         paterno,
         materno,
@@ -33,7 +34,7 @@ const agregarCliente = async (req,res) =>{
         movil);
 
         const Cliente = new Cliente({
-            etiquetas,
+            
             nombres,
             paterno,
             materno,
@@ -98,14 +99,15 @@ const guardarEtiquetasBD = async (etiquetas,
 
 const traerClientes = async (req,res) =>{
     
+        
         const [total, clientes] = await Promise.all([
-            Ficha.countDocuments({ "estado_cliente.state": true }),
-            Ficha.find({ "estado_cliente.state": true }).skip(0).skip(10)
+            Cliente.countDocuments({ "estado_cliente.state": true }),
+            Cliente.find({ "estado_cliente.state": true }).skip(0).skip(10)
         ])
     
         res.json({
             total,
-            cliente
+            clientes
         });
     
 }
